@@ -4,12 +4,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 
-import { Space_Grotesk } from "@next/font/google";
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin", "latin-ext"],
-});
-
 const navs = [
   { name: "Home", link: "/" },
   { name: "Who We Are", link: "/who-we-are" },
@@ -25,10 +19,7 @@ const NavBar = () => {
   };
 
   return (
-    <div
-      style={{ fontFamily: spaceGrotesk.style.fontFamily }}
-      className="bg-white fixed w-full flex z-50 justify-between items-center px-4 md:px-5 py-2 shadow-md"
-    >
+    <div className="bg-white fixed w-full flex z-50 justify-between items-center px-4 md:px-5 py-2 shadow-md">
       <Link href="/" className="logo">
         <Image
           alt="logo"

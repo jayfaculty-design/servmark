@@ -15,14 +15,10 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { Space_Grotesk } from "@next/font/google";
+
 import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin", "latin-ext"], // Add more subsets if necessary
-});
 
 const Footer = () => {
   const [email, setEmail] = useState("");
@@ -51,10 +47,7 @@ const Footer = () => {
     triggerOnce: true,
   });
   return (
-    <footer
-      style={{ fontFamily: spaceGrotesk.style.fontFamily }}
-      className="bg-primary text-white"
-    >
+    <footer className="bg-primary text-white">
       {/* Newsletter Section */}
       <motion.div
         ref={newsletterRef}

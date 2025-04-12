@@ -1,7 +1,6 @@
 "use client";
 import SectionHeader from "@/components/Heading";
 import React from "react";
-import { Metadata } from "next";
 import Image from "next/image";
 import ServiceCard from "@/components/ServiceCard";
 import Link from "next/link";

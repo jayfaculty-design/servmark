@@ -1,7 +1,6 @@
 "use client";
 import SectionHeader from "@/components/Heading";
 import { Mail, Phone } from "lucide-react";
-import { Metadata } from "next";
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";

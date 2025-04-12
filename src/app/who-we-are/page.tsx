@@ -1,6 +1,5 @@
 "use client";
 import SectionHeader from "@/components/Heading";
-import Team from "@/components/Team";
 import FeatureSection from "@/components/WhyChooseUs";
 import Image from "next/image";
 import React from "react";
