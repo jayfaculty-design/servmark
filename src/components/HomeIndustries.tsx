@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import SectionHeader from "./Heading";
 import Link from "next/link";
+import { JSX } from "react/jsx-runtime";
 
 // Map icons to Lucide React components
 const getIndustryIcon = (name: string): JSX.Element => {
