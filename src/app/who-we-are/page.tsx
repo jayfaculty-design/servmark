@@ -120,10 +120,7 @@ const AboutUs = () => {
               animate={journeyInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <span className="absolute top-3 left-3 bg-primary text-white px-3 py-1 rounded-full text-sm">
-                OUR STORY
-              </span>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 pt-5">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 pt-0">
                 Our Journey
               </h2>
               <p className="mb-6 text-gray-700 text-base sm:text-lg leading-relaxed">
@@ -141,10 +138,7 @@ const AboutUs = () => {
               animate={journeyInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             >
-              <span className="absolute top-3 left-3 bg-primary text-white px-3 py-1 rounded-full text-sm">
-                LOOKING FORWARD
-              </span>
-              <h2 className="text-2xl pt-5 md:text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                 Our Vision
               </h2>
               <p className="mb-6 text-gray-700 text-base sm:text-lg leading-relaxed">
