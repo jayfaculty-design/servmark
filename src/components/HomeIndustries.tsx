@@ -23,7 +23,6 @@ import SectionHeader from "./Heading";
 import Link from "next/link";
 import { JSX } from "react/jsx-runtime";
 
-// Map icons to Lucide React components
 const getIndustryIcon = (name: string): JSX.Element => {
   switch (name) {
     case "Healthcare":
@@ -102,7 +101,7 @@ const industries = [
   {
     name: "Professional Services",
     description:
-      "Provides back-office support like HR, accounting, and marketing for firms and agencies.",
+      "Provides back-office support like HR, accounting, and marketing for agencies and firms.",
   },
 ];
 

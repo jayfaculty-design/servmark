@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface ServiceCardProps {
@@ -62,12 +63,12 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         {showButton && (
           <div className="mt-auto">
             {href ? (
-              <a
+              <Link
                 href={href}
                 className={`${buttonColor} text-white px-5 py-2 rounded-lg font-bold ${buttonHoverColor} transition duration-300`}
               >
                 {buttonText}
-              </a>
+              </Link>
             ) : (
               <button
                 onClick={onClick}
