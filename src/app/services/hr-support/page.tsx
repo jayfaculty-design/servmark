@@ -7,12 +7,7 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 
-// Metadata for the page
-// export const metadata: Metadata = {
-//   title: "HR Support Service | Servmark",
-//   description:
-//     "Covers recruitment, onboarding, employee management, policy creation, and HR compliance to build strong teams.",
-// };
+
 
 // HR Services
 const hr = [

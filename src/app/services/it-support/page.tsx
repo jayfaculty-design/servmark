@@ -8,11 +8,6 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 
 // Metadata for the page
-// export const metadata: Metadata = {
-//   title: "IT Support Service | Servmark",
-//   description:
-//     "End-to-end tech support including helpdesk, system maintenance, cybersecurity, and infrastructure management.",
-// };
 
 // IT Services
 const itServices = [

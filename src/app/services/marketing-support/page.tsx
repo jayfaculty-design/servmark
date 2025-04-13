@@ -7,12 +7,7 @@ import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 
-// Metadata for the page
-// export const metadata: Metadata = {
-//   title: "Marketing Support Service | Servmark",
-//   description:
-//     "Drives brand awareness and engagement through digital marketing, social media, content creation, and market research.",
-// };
+
 
 // Marketing services data
 const marketing = [

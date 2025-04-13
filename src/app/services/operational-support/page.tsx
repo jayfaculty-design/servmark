@@ -7,12 +7,6 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
 
-// Metadata for the page
-// export const metadata: Metadata = {
-//   title: "Operational Support Service | Servmark",
-//   description:
-//     "Improves business processes through logistics support, facilities management, and process optimization.",
-// };
 
 // Service data
 const operational = [

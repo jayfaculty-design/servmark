@@ -1,4 +1,5 @@
 "use client";
+
 import SectionHeader from "@/components/Heading";
 import FeatureSection from "@/components/WhyChooseUs";
 import Image from "next/image";
@@ -6,6 +7,7 @@ import React from "react";
 import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import { motion } from "motion/react";
+
 
 const customDescription = {
   heading: "What Sets Us Apart",

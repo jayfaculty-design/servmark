@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section className="bg-gray-50 pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+    <section className="bg-gray-50 pt-32 pb-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
         <motion.div
           className="order-2 lg:order-1 mt-8 lg:mt-0"
